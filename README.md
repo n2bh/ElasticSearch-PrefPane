@@ -10,7 +10,7 @@ A simple System Preferences pane for starting and stopping the ElasticSearch dae
 Installation
 ------------
 
-* Download the ElasticSearch-PrefPane.dmg disk image from the ./Build/Release folder
+* Download the ElasticSearch-PrefPane.dmg disk image from the ./Build/Release folder [here](https://github.com/entropillc/ElasticSearch-PrefPane/raw/master/Build/Release/ElasticSearch-PrefPane.dmg)
 * Mount the disk image and double-click ElasticSearch.prefPane inside it to install
 
 Configuration
