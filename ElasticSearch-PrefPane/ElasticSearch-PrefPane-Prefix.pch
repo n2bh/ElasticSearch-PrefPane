@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ElasticSearch-PrefPane' target in the 'ElasticSearch-PrefPane' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D077E5C316D1EB68002ABD22 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D077E5C216D1EB68002ABD22 /* Cocoa.framework */; };
+		D077E5C516D1EB68002ABD22 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D077E5C416D1EB68002ABD22 /* PreferencePanes.framework */; };
+		D077E5CF16D1EB68002ABD22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D077E5CD16D1EB68002ABD22 /* InfoPlist.strings */; };
+		D077E5D316D1EB68002ABD22 /* ElasticSearch_PrefPane.m in Sources */ = {isa = PBXBuildFile; fileRef = D077E5D216D1EB68002ABD22 /* ElasticSearch_PrefPane.m */; };
+		D077E5D516D1EB68002ABD22 /* ElasticSearch_PrefPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = D077E5D416D1EB68002ABD22 /* ElasticSearch_PrefPane.tiff */; };
+		D077E5D816D1EB68002ABD22 /* ElasticSearch_PrefPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = D077E5D616D1EB68002ABD22 /* ElasticSearch_PrefPane.xib */; };
+		D077E5E616D1ED6B002ABD22 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D077E5E316D1ED6B002ABD22 /* Logo.png */; };
+		D077E5E716D1ED6B002ABD22 /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D077E5E416D1ED6B002ABD22 /* Logo@2x.png */; };
+		D077E60A16D1F079002ABD22 /* Preferences.h in Headers */ = {isa = PBXBuildFile; fileRef = D077E60816D1F079002ABD22 /* Preferences.h */; };
+		D077E60B16D1F079002ABD22 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D077E60916D1F079002ABD22 /* Preferences.m */; };
+		D077E61216D1F1F9002ABD22 /* FFYDaemonController.h in Headers */ = {isa = PBXBuildFile; fileRef = D077E60E16D1F1F9002ABD22 /* FFYDaemonController.h */; };
+		D077E61316D1F1F9002ABD22 /* FFYDaemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = D077E60F16D1F1F9002ABD22 /* FFYDaemonController.m */; };
+		D077E61416D1F1F9002ABD22 /* MIT-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D077E61016D1F1F9002ABD22 /* MIT-LICENSE */; };
+		D077E61516D1F1F9002ABD22 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D077E61116D1F1F9002ABD22 /* README.md */; };
+		D077E61916D1F243002ABD22 /* MBSliderButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D077E61716D1F243002ABD22 /* MBSliderButton.h */; };
+		D077E61A16D1F243002ABD22 /* MBSliderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D077E61816D1F243002ABD22 /* MBSliderButton.m */; };
+		D077E62016D1F29A002ABD22 /* button_knob.png in Resources */ = {isa = PBXBuildFile; fileRef = D077E61C16D1F29A002ABD22 /* button_knob.png */; };
+		D077E62116D1F29A002ABD22 /* button_surround.png in Resources */ = {isa = PBXBuildFile; fileRef = D077E61D16D1F29A002ABD22 /* button_surround.png */; };
+		D077E62216D1F29A002ABD22 /* switcher-text-off.png in Resources */ = {isa = PBXBuildFile; fileRef = D077E61E16D1F29A002ABD22 /* switcher-text-off.png */; };
+		D077E62316D1F29A002ABD22 /* switcher-text-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D077E61F16D1F29A002ABD22 /* switcher-text-on.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D077E5BF16D1EB68002ABD22 /* ElasticSearch.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElasticSearch.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		D077E5C216D1EB68002ABD22 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D077E5C416D1EB68002ABD22 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		D077E5C716D1EB68002ABD22 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D077E5C816D1EB68002ABD22 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D077E5C916D1EB68002ABD22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D077E5CC16D1EB68002ABD22 /* ElasticSearch-PrefPane-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ElasticSearch-PrefPane-Info.plist"; sourceTree = "<group>"; };
+		D077E5CE16D1EB68002ABD22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D077E5D016D1EB68002ABD22 /* ElasticSearch-PrefPane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ElasticSearch-PrefPane-Prefix.pch"; sourceTree = "<group>"; };
+		D077E5D116D1EB68002ABD22 /* ElasticSearch_PrefPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElasticSearch_PrefPane.h; sourceTree = "<group>"; };
+		D077E5D216D1EB68002ABD22 /* ElasticSearch_PrefPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElasticSearch_PrefPane.m; sourceTree = "<group>"; };
+		D077E5D416D1EB68002ABD22 /* ElasticSearch_PrefPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ElasticSearch_PrefPane.tiff; sourceTree = "<group>"; };
+		D077E5D716D1EB68002ABD22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ElasticSearch_PrefPane.xib; sourceTree = "<group>"; };
+		D077E5E316D1ED6B002ABD22 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		D077E5E416D1ED6B002ABD22 /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@2x.png"; sourceTree = "<group>"; };
+		D077E60816D1F079002ABD22 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		D077E60916D1F079002ABD22 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+		D077E60E16D1F1F9002ABD22 /* FFYDaemonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFYDaemonController.h; sourceTree = "<group>"; };
+		D077E60F16D1F1F9002ABD22 /* FFYDaemonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFYDaemonController.m; sourceTree = "<group>"; };
+		D077E61016D1F1F9002ABD22 /* MIT-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MIT-LICENSE"; sourceTree = "<group>"; };
+		D077E61116D1F1F9002ABD22 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D077E61716D1F243002ABD22 /* MBSliderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSliderButton.h; sourceTree = "<group>"; };
+		D077E61816D1F243002ABD22 /* MBSliderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSliderButton.m; sourceTree = "<group>"; };
+		D077E61C16D1F29A002ABD22 /* button_knob.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_knob.png; sourceTree = "<group>"; };
+		D077E61D16D1F29A002ABD22 /* button_surround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_surround.png; sourceTree = "<group>"; };
+		D077E61E16D1F29A002ABD22 /* switcher-text-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switcher-text-off.png"; sourceTree = "<group>"; };
+		D077E61F16D1F29A002ABD22 /* switcher-text-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switcher-text-on.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D077E5BA16D1EB68002ABD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D077E5C316D1EB68002ABD22 /* Cocoa.framework in Frameworks */,
+				D077E5C516D1EB68002ABD22 /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D077E5B216D1EB68002ABD22 = {
+			isa = PBXGroup;
+			children = (
+				D077E5CA16D1EB68002ABD22 /* ElasticSearch-PrefPane */,
+				D077E5C116D1EB68002ABD22 /* Frameworks */,
+				D077E5C016D1EB68002ABD22 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		D077E5C016D1EB68002ABD22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D077E5BF16D1EB68002ABD22 /* ElasticSearch.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D077E5C116D1EB68002ABD22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D077E5C216D1EB68002ABD22 /* Cocoa.framework */,
+				D077E5C416D1EB68002ABD22 /* PreferencePanes.framework */,
+				D077E5C616D1EB68002ABD22 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D077E5C616D1EB68002ABD22 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D077E5C716D1EB68002ABD22 /* AppKit.framework */,
+				D077E5C816D1EB68002ABD22 /* CoreData.framework */,
+				D077E5C916D1EB68002ABD22 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D077E5CA16D1EB68002ABD22 /* ElasticSearch-PrefPane */ = {
+			isa = PBXGroup;
+			children = (
+				D077E5D116D1EB68002ABD22 /* ElasticSearch_PrefPane.h */,
+				D077E5D216D1EB68002ABD22 /* ElasticSearch_PrefPane.m */,
+				D077E5D416D1EB68002ABD22 /* ElasticSearch_PrefPane.tiff */,
+				D077E5D616D1EB68002ABD22 /* ElasticSearch_PrefPane.xib */,
+				D077E60816D1F079002ABD22 /* Preferences.h */,
+				D077E60916D1F079002ABD22 /* Preferences.m */,
+				D077E60C16D1F1F9002ABD22 /* Libraries */,
+				D077E5CB16D1EB68002ABD22 /* Supporting Files */,
+			);
+			path = "ElasticSearch-PrefPane";
+			sourceTree = "<group>";
+		};
+		D077E5CB16D1EB68002ABD22 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D077E5E316D1ED6B002ABD22 /* Logo.png */,
+				D077E5E416D1ED6B002ABD22 /* Logo@2x.png */,
+				D077E5CC16D1EB68002ABD22 /* ElasticSearch-PrefPane-Info.plist */,
+				D077E5CD16D1EB68002ABD22 /* InfoPlist.strings */,
+				D077E5D016D1EB68002ABD22 /* ElasticSearch-PrefPane-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D077E60C16D1F1F9002ABD22 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D077E60D16D1F1F9002ABD22 /* DaemonController */,
+				D077E61616D1F243002ABD22 /* SliderButton */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		D077E60D16D1F1F9002ABD22 /* DaemonController */ = {
+			isa = PBXGroup;
+			children = (
+				D077E60E16D1F1F9002ABD22 /* FFYDaemonController.h */,
+				D077E60F16D1F1F9002ABD22 /* FFYDaemonController.m */,
+				D077E61016D1F1F9002ABD22 /* MIT-LICENSE */,
+				D077E61116D1F1F9002ABD22 /* README.md */,
+			);
+			path = DaemonController;
+			sourceTree = "<group>";
+		};
+		D077E61616D1F243002ABD22 /* SliderButton */ = {
+			isa = PBXGroup;
+			children = (
+				D077E61B16D1F29A002ABD22 /* Resources */,
+				D077E61716D1F243002ABD22 /* MBSliderButton.h */,
+				D077E61816D1F243002ABD22 /* MBSliderButton.m */,
+			);
+			path = SliderButton;
+			sourceTree = "<group>";
+		};
+		D077E61B16D1F29A002ABD22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D077E61C16D1F29A002ABD22 /* button_knob.png */,
+				D077E61D16D1F29A002ABD22 /* button_surround.png */,
+				D077E61E16D1F29A002ABD22 /* switcher-text-off.png */,
+				D077E61F16D1F29A002ABD22 /* switcher-text-on.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D077E5BB16D1EB68002ABD22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D077E60A16D1F079002ABD22 /* Preferences.h in Headers */,
+				D077E61216D1F1F9002ABD22 /* FFYDaemonController.h in Headers */,
+				D077E61916D1F243002ABD22 /* MBSliderButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D077E5BE16D1EB68002ABD22 /* ElasticSearch-PrefPane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D077E5DB16D1EB68002ABD22 /* Build configuration list for PBXNativeTarget "ElasticSearch-PrefPane" */;
+			buildPhases = (
+				D077E5B916D1EB68002ABD22 /* Sources */,
+				D077E5BA16D1EB68002ABD22 /* Frameworks */,
+				D077E5BB16D1EB68002ABD22 /* Headers */,
+				D077E5BC16D1EB68002ABD22 /* Resources */,
+				D077E5BD16D1EB68002ABD22 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ElasticSearch-PrefPane";
+			productName = "ElasticSearch-PrefPane";
+			productReference = D077E5BF16D1EB68002ABD22 /* ElasticSearch.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D077E5B416D1EB68002ABD22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Entropi Software";
+			};
+			buildConfigurationList = D077E5B716D1EB68002ABD22 /* Build configuration list for PBXProject "ElasticSearch-PrefPane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D077E5B216D1EB68002ABD22;
+			productRefGroup = D077E5C016D1EB68002ABD22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D077E5BE16D1EB68002ABD22 /* ElasticSearch-PrefPane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D077E5BC16D1EB68002ABD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D077E5CF16D1EB68002ABD22 /* InfoPlist.strings in Resources */,
+				D077E5D516D1EB68002ABD22 /* ElasticSearch_PrefPane.tiff in Resources */,
+				D077E5D816D1EB68002ABD22 /* ElasticSearch_PrefPane.xib in Resources */,
+				D077E5E616D1ED6B002ABD22 /* Logo.png in Resources */,
+				D077E5E716D1ED6B002ABD22 /* Logo@2x.png in Resources */,
+				D077E61416D1F1F9002ABD22 /* MIT-LICENSE in Resources */,
+				D077E61516D1F1F9002ABD22 /* README.md in Resources */,
+				D077E62016D1F29A002ABD22 /* button_knob.png in Resources */,
+				D077E62116D1F29A002ABD22 /* button_surround.png in Resources */,
+				D077E62216D1F29A002ABD22 /* switcher-text-off.png in Resources */,
+				D077E62316D1F29A002ABD22 /* switcher-text-on.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		D077E5BD16D1EB68002ABD22 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D077E5B916D1EB68002ABD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D077E5D316D1EB68002ABD22 /* ElasticSearch_PrefPane.m in Sources */,
+				D077E60B16D1F079002ABD22 /* Preferences.m in Sources */,
+				D077E61316D1F1F9002ABD22 /* FFYDaemonController.m in Sources */,
+				D077E61A16D1F243002ABD22 /* MBSliderButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D077E5CD16D1EB68002ABD22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D077E5CE16D1EB68002ABD22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D077E5D616D1EB68002ABD22 /* ElasticSearch_PrefPane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D077E5D716D1EB68002ABD22 /* en */,
+			);
+			name = ElasticSearch_PrefPane.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D077E5D916D1EB68002ABD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D077E5DA16D1EB68002ABD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D077E5DC16D1EB68002ABD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElasticSearch-PrefPane/ElasticSearch-PrefPane-Prefix.pch";
+				INFOPLIST_FILE = "ElasticSearch-PrefPane/ElasticSearch-PrefPane-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = ElasticSearch;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		D077E5DD16D1EB68002ABD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ElasticSearch-PrefPane/ElasticSearch-PrefPane-Prefix.pch";
+				INFOPLIST_FILE = "ElasticSearch-PrefPane/ElasticSearch-PrefPane-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = ElasticSearch;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D077E5B716D1EB68002ABD22 /* Build configuration list for PBXProject "ElasticSearch-PrefPane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D077E5D916D1EB68002ABD22 /* Debug */,
+				D077E5DA16D1EB68002ABD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D077E5DB16D1EB68002ABD22 /* Build configuration list for PBXNativeTarget "ElasticSearch-PrefPane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D077E5DC16D1EB68002ABD22 /* Debug */,
+				D077E5DD16D1EB68002ABD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D077E5B416D1EB68002ABD22 /* Project object */;
+}
